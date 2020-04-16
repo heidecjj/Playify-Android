@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Playify</string>
+    <string name="intro_before_link">Click on a Spotify link anywhere and then set Playify to open Spotify links by default. Here\'s a link to get you started!</string>
+    <string name="example_link">https://open.spotify.com/track/5z14e4rPImlgk40W33dt0U</string>
+    <string name="after_link_warning">Side note, Playify will only work if you do not have Spotify installed</string>
 </resources>
