@@ -7,4 +7,5 @@
     <string name="spotify_settings_path_v23">Spotify App info > Open by default > Open supported links > Ask every time</string>
     <string name="spotify_settings_path_v28">Spotify App info > Advanced > Open by default > Open supported links > Ask every time</string>
     <string name="spotify_app_info">Spotify App Info</string>
+    <string name="spotify_uri">com.spotify.music</string>
 </resources>

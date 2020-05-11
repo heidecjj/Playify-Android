@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
     private fun showHideSpotifyInstructions() {
         var spotifyCard = findViewById<CardView>(R.id.spotifyInstructionsCard)
         try {
-            packageManager.getPackageInfo("com.spotify.music", 0)
+            packageManager.getPackageInfo(getString(R.string.spotify_uri), 0)
             spotifyCard.visibility = View.VISIBLE
         } catch (err: PackageManager.NameNotFoundException) {
             spotifyCard.visibility = View.GONE
@@ -45,7 +45,7 @@ class MainActivity : AppCompatActivity() {
 
     fun startSpotifyAppInfo(view: View) {
         startActivity(Intent(ACTION_APPLICATION_DETAILS_SETTINGS)
-            .setData(Uri.parse("package:com.spotify.music")))
+            .setData(Uri.parse("package:${getString(R.string.spotify_uri)}")))
     }
 
 }
