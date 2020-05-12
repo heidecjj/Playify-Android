@@ -4,8 +4,8 @@
     <string name="example_link">https://open.spotify.com/track/5z14e4rPImlgk40W33dt0U</string>
     <string name="common_spotify_instructions">To allow Playify to handle Spotify links, go to:</string>
     <string name="spotify_settings_path_v9">Spotify App info > Clear Defaults</string>
-    <string name="spotify_settings_path_v23">Spotify App info > Open by default > Open supported links > Ask every time</string>
-    <string name="spotify_settings_path_v28">Spotify App info > Advanced > Open by default > Open supported links > Ask every time</string>
+    <string name="spotify_settings_path_v23">Spotify App info > Open by default > Open supported links > Don\'t open in this app</string>
+    <string name="spotify_settings_path_v28">Spotify App info > Advanced > Open by default > Open supported links > Don\'t open in this app</string>
     <string name="spotify_app_info">Spotify App Info</string>
     <string name="spotify_uri">com.spotify.music</string>
 </resources>
