@@ -26,8 +26,8 @@ class LinkActivity : AppCompatActivity() {
         setContentView(R.layout.link_activity)
     }
 
-    override fun onResume() {
-        super.onResume()
+    override fun onStart() {
+        super.onStart()
         handleIntent(intent)
     }
 
@@ -40,6 +40,7 @@ class LinkActivity : AppCompatActivity() {
                 Request.Method.GET, url, null,
                 Response.Listener<JSONObject> { response ->
                     handleMedia(type, response)
+                    finish()
                 },
                 Response.ErrorListener { _ -> })
 
