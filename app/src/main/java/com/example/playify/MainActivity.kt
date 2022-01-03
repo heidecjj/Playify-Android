@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    fun startSpotifyAppInfo(view: View) {
+    fun startSpotifyAppInfo(@Suppress("UNUSED_PARAMETER")view: View) {
         startActivity(Intent(ACTION_APPLICATION_DETAILS_SETTINGS)
             .setData(Uri.parse("package:${getString(R.string.spotify_uri)}")))
     }
